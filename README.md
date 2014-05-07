@@ -11,14 +11,14 @@ Reads from SD card and streams to grbl on a UART (Serial1 on the Mega2560).
   * Depends upon Arduino hardware abstraction and environment for build
   * No in controller jogging - requires USB UART connection override
 
-** Planned**
+**Planned**
   * Build versioning
   * Arduino environment independence using avr-gcc directly
   * Jogging implementation
   * Better pin mapping header strategy
   * Far future: independence from Arduino hardware abstraction libraries
 
-** Setup and Build**
+**Setup and Build**
 
 Currently, with dependency on Arduino environment for compilation, all of the classes/subdirectories
 need a symbolic link from the Arduino libraries directory for the Arduino compilation to
