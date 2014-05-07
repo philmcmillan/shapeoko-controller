@@ -20,3 +20,6 @@
 *.out
 *.app
 *.hex
+
+# Others
+tags
